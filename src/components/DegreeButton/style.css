@@ -1,0 +1,18 @@
+.degreeButton {
+    width: 35px;
+    height: 35px;
+
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color:#585676;
+
+    box-shadow: 1px 1px 3px 0px black;
+
+    cursor: pointer;    
+}
+
+.degreeButton:hover{
+    opacity: .8;
+}
+

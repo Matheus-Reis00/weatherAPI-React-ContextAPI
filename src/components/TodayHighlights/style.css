@@ -1,0 +1,54 @@
+.todayHighlightsContainer{
+    margin-top: 70px;
+    color: white;
+}
+
+.todayHighlightsContainer header h1{
+    font-size: 25px;
+}
+
+.todayHighlightsContainer .highlights {
+    margin-top: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.todayHighlightsContainer .highlights .highlightBlock {
+    padding: 20px;
+
+    background-color:#1E213A;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todayHighlightsContainer .highlights .highlightBlock h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.todayHighlightsContainer .highlights .highlightBlock span {
+    font-size: 20px;
+}
+
+.todayHighlightsContainer .highlights .highlightBlock span:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.todayHighlightsContainer .highlights .highlightBlock span strong{
+    font-size: 40px;
+    font-weight:bold;
+    margin-right: 2px;
+}
+
+.todayHighlightsContainer .highlights .highlightBlock .compassContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

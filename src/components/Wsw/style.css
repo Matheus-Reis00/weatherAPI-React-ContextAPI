@@ -1,0 +1,22 @@
+.background {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #585676;
+
+    border: none;
+    border-radius: 50%;
+}
+
+.background .arrow{
+    width: 40%;
+    height: 40%;
+
+    background-color: #fff;
+
+    clip-path: polygon(100% 100%, 50% 70%, 0 100%, 50% 0);
+}

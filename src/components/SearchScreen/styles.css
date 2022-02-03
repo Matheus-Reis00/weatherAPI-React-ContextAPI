@@ -1,0 +1,104 @@
+.header-search-screen .container-close-button{
+    width: 100%;
+    height: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    position: relative;
+}
+
+.header-search-screen .container-close-button button{
+    padding: 20px;
+    top: -30px;
+    right: -20px;
+    font-size: 20px;
+    
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+
+    cursor: pointer
+}
+
+.header-search-screen .container-close-button button:hover{
+    opacity: .6;
+    transition: .4s;
+    transform: scale(1.05)
+}
+
+.header-search-screen .search-area{
+    width: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-search-screen .search-area label{
+    color: white;
+
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.header-search-screen .search-area input{
+    width: 100%;
+    padding: 5px 10px;
+
+    color: white;
+    background: none;
+    border: 2px solid #21B8CE;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1) inset;
+}
+
+.header-search-screen .search-area button{
+    padding: 5px 25px;
+    margin-left: 20px;
+
+    border: 1px solid #21B8CE;
+    border-radius: 5px;
+
+    background-color: #21B8CE;
+    color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+
+    cursor: pointer
+}
+
+.header-search-screen .search-area button:hover{
+    opacity: .6;
+    transition: .4s;
+}
+
+.container-search-screen .container-city-options{
+    overflow: auto;
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-search-screen .container-city-options .city-block{
+    width: 100%;
+    padding: 10px;
+
+    background: none;
+    border-radius:5px;
+    border: 1px solid rgba(33, 184, 206, .4);
+    color: white;
+
+    cursor: pointer;
+}
+
+.container-search-screen .container-city-options .city-block:hover{
+    opacity: .6;
+    transition: .4s;
+    border-color: white;
+    color: rgba(33, 184, 206, 1);
+}

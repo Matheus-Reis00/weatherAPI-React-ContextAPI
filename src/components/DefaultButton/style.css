@@ -1,0 +1,16 @@
+.defaultButton {
+    padding: 10px 15px;
+
+    color: white;
+    background: none;
+    border: none;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 3px 0px black;
+
+    cursor: pointer;
+}
+
+.defaultButton:hover{
+    opacity: .8;
+}
